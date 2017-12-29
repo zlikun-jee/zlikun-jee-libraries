@@ -10,6 +10,7 @@
     <modules>
         <module>hashids</module>
         <module>jwt</module>
+        <module>zxing</module>
     </modules>
     <packaging>pom</packaging>
 
