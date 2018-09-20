@@ -1,7 +1,8 @@
-package com.zlikun.learing;
+package com.zlikun.jee;
 
 import lombok.extern.slf4j.Slf4j;
 import org.hashids.Hashids;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.concurrent.ExecutorService;
@@ -36,7 +37,7 @@ public class HashidsTest {
         assertThat(numberHash, is("67uQuVsPU7fb"));
 
         // 数组解码
-        long [] numbers = hashids.decode(numberHash);
+        long[] numbers = hashids.decode(numberHash);
         assertEquals(1L, numbers[0]);
         assertEquals(2L, numbers[2]);
         assertEquals(8L, numbers[5]);
@@ -44,6 +45,7 @@ public class HashidsTest {
     }
 
     @Test
+    @Ignore
     public void performance() {
 
         final String salt = "zlikun";
@@ -60,7 +62,7 @@ public class HashidsTest {
         }
 
         exec.shutdown();
-        while (!exec.isTerminated());
+        while (!exec.isTerminated()) ;
 
         // 单个线程：5,036 | 5,124 | 4,986
         // 20个线程：4,123 | 4,150 | 3,934

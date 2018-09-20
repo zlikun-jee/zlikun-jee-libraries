@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>libraries</artifactId>
-        <groupId>com.zlikun.learning</groupId>
+        <groupId>com.zlikun.jee</groupId>
+        <artifactId>zlikun-jee-libraries</artifactId>
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>jwt</artifactId>
+    <artifactId>zlikun-jee-libraries-jwt</artifactId>
 
     <dependencies>
 

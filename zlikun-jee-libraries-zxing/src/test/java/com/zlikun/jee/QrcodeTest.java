@@ -1,4 +1,4 @@
-package com.zlikun.learning;
+package com.zlikun.jee;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;

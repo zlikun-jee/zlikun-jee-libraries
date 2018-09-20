@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zlikun.learning</groupId>
-    <artifactId>libraries</artifactId>
+    <groupId>com.zlikun.jee</groupId>
+    <artifactId>zlikun-jee-libraries</artifactId>
     <version>1.0.0</version>
     <modules>
-        <module>hashids</module>
-        <module>jwt</module>
-        <module>zxing</module>
+        <module>zlikun-jee-libraries-hashids</module>
+        <module>zlikun-jee-libraries-jwt</module>
+        <module>zlikun-jee-libraries-zxing</module>
     </modules>
     <packaging>pom</packaging>
 
